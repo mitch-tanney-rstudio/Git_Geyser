@@ -14,7 +14,7 @@ library(renv)
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Old Faithful Geyser Data"),
+    titlePanel("Old Faithful Geyser Data- Branch MT"),
 
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
@@ -22,8 +22,8 @@ ui <- fluidPage(
             sliderInput("bins",
                         "Number of bins:",
                         min = 1,
-                        max = 50,
-                        value = 30)
+                        max = 25,
+                        value = 25)
         ),
 
         # Show a plot of the generated distribution
